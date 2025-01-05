@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 
-mongoose.connect("mongodb+srv://Ojas:pa6ZJOwIH6KXtnYR@cluster0.u83xy.mongodb.net/todo_fullstack");
+mongoose.connect("mongodb+srv:///todo_fullstack");
 const todoschema=mongoose.Schema({
     title:String,
     description:String,
